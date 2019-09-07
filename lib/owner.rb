@@ -45,4 +45,8 @@ class Owner
        Dog.new(name,self)
   end
   
+  def walk_dogs
+    self.dogs.each {|walk| walk.dog
+  end
+  
 end

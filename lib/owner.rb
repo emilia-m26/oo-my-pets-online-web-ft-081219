@@ -21,4 +21,8 @@ class Owner
     @@all.count
   end
   
+  def self.reset_all
+    self.clear
+  end
+  
 end

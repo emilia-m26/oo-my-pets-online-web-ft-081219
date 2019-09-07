@@ -25,4 +25,10 @@ class Owner
     self.all.clear
   end
   
+  def cats
+    Cat.all.collect do |cat| 
+    cat.owner ==  self
+    end
+  end
+  
 end
